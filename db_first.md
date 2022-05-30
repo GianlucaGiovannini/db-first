@@ -4,7 +4,7 @@
 
 ## table: Car
 
-- id :                             bigint                  PRIMARYKEY(NOTNULL, AUTOINCREMENTS, UNIQUE)
+- id :                             bigint                  PRIMARYKEY(NOTNULL, AUTOINCREMENT, UNIQUE)
 - frame_number :                   CHAR(17)                NULL, UNIQUE, INDEX
 - poster :                         VARCHAR(255)            NULL
 - brand :                          VARCHAR(100)            NOTNULL, INDEX
